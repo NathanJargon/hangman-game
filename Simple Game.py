@@ -45,7 +45,6 @@ word_hint_dict = {
     "cryptography": "Hint: The science of keeping information secure",
     "pygame": "Hint: A popular library for creating games in Python!",
     "systems_architect": "Hint: Computer systems analysts, creates the hardware, software, and network systems.",
-    "blockchain_engineer": "Hint: The expert minds behind the evolution of computer networks, data structures, and algorithms in their companies.",
     "depth_first_search": "Hint: An algorithm for traversing or searching tree or graph data structures.",
     "brent's_algorithm": "Hint: An algorithm that finds a cycle in function value iterations using only two iterators.",
     "dijkstra's_algorithm": "Hint: An algorithm that computes shortest paths in a graph with non-negative edge weights.",
@@ -82,7 +81,6 @@ word_hint_dict = {
     "counting_sort": "Hint: An algorithm for sorting a collection of objects according to keys that are small positive integers.",
     "breadth_first_search": "Hint: An algorithm for searching a tree data structure for a node that satisfies a given property.", 
     "bucket_sort": "Hint: A sorting algorithm that works by distributing the elements of an array into a number of buckets.",
-    "bellman-ford": "Hint: An algorithm that computes shortest paths from a single source vertex to all of the other vertices in a weighted digraph.",
     "computing_systems": "Hint: A set of integrated devices that input, output, process, and store data and information.",
 }
 

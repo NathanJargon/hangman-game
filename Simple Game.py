@@ -50,7 +50,6 @@ word_hint_dict = {
     "brent's_algorithm": "Hint: An algorithm that finds a cycle in function value iterations using only two iterators.",
     "dijkstra's_algorithm": "Hint: An algorithm that computes shortest paths in a graph with non-negative edge weights.",
     "greedy_algorithm": "Hint: It is an algorithm that picks the best immediate choice and never reconsiders its choices.",
-    "competitive_coding": "Hint: A sport where contestants solve algorithmic problems within a time limit using a programming language of their choice.",
     "scratch": "Hint: A programming language and website aimed primarily at children as an educational tool.",
     "algorithm": "Hint: A step-by-step procedure to solve a problem or perform a task!",
     "debugging": "Hint: The process of finding and fixing errors in code!",
@@ -84,7 +83,6 @@ word_hint_dict = {
     "breadth_first_search": "Hint: An algorithm for searching a tree data structure for a node that satisfies a given property.", 
     "bucket_sort": "Hint: A sorting algorithm that works by distributing the elements of an array into a number of buckets.",
     "bellman-ford": "Hint: An algorithm that computes shortest paths from a single source vertex to all of the other vertices in a weighted digraph.",
-    "human_computer_interaction": "Hint: Research in the design and the use of computer technology, which focuses on the interfaces between people and computers.",
     "computing_systems": "Hint: A set of integrated devices that input, output, process, and store data and information.",
 }
 

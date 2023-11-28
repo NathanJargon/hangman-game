@@ -39,7 +39,7 @@ font = pygame.font.Font(None, 55)
 timefont = pygame.font.Font(None, 25)
 hint_font = pygame.font.Font(None, 32)
 madefont = pygame.font.Font(None, 15)
-text = font.render("Press Enter to Start Playing", True, (255, 255, 255))
+text = font.render("Press Anything to Start Playing", True, (255, 255, 255))
 
 word_hint_dict = {
     "cryptography": "Hint: The science of keeping information secure",
@@ -107,16 +107,16 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-        elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_RETURN:
-                game = True
-                running = False
-                start_time = pygame.time.get_ticks() 
-                
+        elif event.type in (pygame.KEYDOWN, pygame.MOUSEBUTTONDOWN):
+            game = True
+            running = False
+            start_time = pygame.time.get_ticks()
+
     window.fill((0, 0, 0))
-    window.blit(text, ((width/2)-235, (height/2)-25))
+    window.blit(text, ((width / 2) - 235, (height / 2) - 25))
 
     pygame.display.flip()
+
 
 while game:
     for event in pygame.event.get():
@@ -161,6 +161,7 @@ while game:
         points += 5
         word_to_guess = generate_random_word()
         guessed_letters = []
+        game_time_limit = max(0, game_time_limit - 15)
 
     if health <= 0:
         points = 0
